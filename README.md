@@ -1,2 +1,3 @@
-# Survey-form-freecodecamp
- Challenge from Free code camp bootcamp
+Survey Form from a Free code camp challenge
+
+HTML & CSS

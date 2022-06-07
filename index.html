@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form 1 HTML & CSS ONLY</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="">
+      <div class="general-box">
+        <h1 id="title" class="title">Survey form</h1>
+        <p id="description">Formulario Responsive web design projects.</p>
+        <div>
+          <form id="survey form" class="form-box">
+            <h3>First form with HTML and CSS</h3>
+
+            <ul>
+              <li id="name">
+                <b>Name</b>
+                <label for="name"></label>
+                <input type="text" placeholder="Enter your name" id="name" />
+              </li>
+              <br />
+              <li id="email">
+                <b>E-mail</b>
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </li>
+              <br />
+              <li>
+                <b id="number">Age</b>
+                <label for="age"></label>
+                <input
+                  type="number"
+                  name="age"
+                  id="age"
+                  placeholder="Age"
+                  min="0"
+                  max="99"
+                />
+              </li>
+              <br />
+              <li id="dropdown">
+                <b> Which option best describes your current role? </b>
+                <label for="Role"> </label>
+                <select name="Role" id="Role">
+                  <option value="">Student</option>
+                  <option value="">Sr.Developer</option>
+                  <option value="">Teacher</option>
+                </select>
+              </li>
+              <br />
+              <li>
+                <b>
+                  Hoy likely is that you would recomend freeCodeCamp to a
+                  friend?
+                </b>
+
+                <label for="definitly">Definitly</label>
+                <input type="radio" name="recomend" id="definitly" />
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" name="recomend" id="maybe" />
+
+                <label for="notsure">Not Sure</label>
+                <input type="radio" name="recomend" id="notsure" />
+              </li>
+              <br />
+              <li>
+                <b> What do you like most in freeCodeCamp? </b>
+                <label for="like-most"> </label>
+                <select name="like-most" id="like-most">
+                  <option value="">Tutorials</option>
+                  <option value="">Articles</option>
+                  <option value="">Dev tips</option>
+                </select>
+              </li>
+              <br />
+              <li>
+                <b> Things that should be improve in the future? </b>
+
+                <label for="improve">Front-end Projects</label>
+                <input type="radio" name="FrontEndP" id="FrontEndP" />
+
+                <label for="improve">Back-end proyects</label>
+                <input type="radio" name="BackEndP" id="BackEndP" />
+
+                <label for="improve">Data Visualization</label>
+                <input type="radio" name="dataV" id="dataV" />
+              </li>
+              <br />
+              <li>
+                <b>Additional comments</b>
+                <input type="textarea" id="textarea" />
+              </li>
+            </ul>
+            <button id="submit">submit</button>
+          </form>
+        </div>
+      </div>
+    </form>
+    <footer class="footer">Octavio Lombardi 2021</footer>
+  </body>
+</html>
